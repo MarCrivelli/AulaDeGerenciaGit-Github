@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     background: linear-gradient(70deg, rgb(131, 16, 225) 0%, rgb(30, 154, 255) 35%, rgba(0,212,255,1) 70%, rgb(0, 255, 195) 100%);
-    height: 150vh;
+    min-height: 150vh;
 }
 
 .blocoIntroducao{
@@ -18,14 +18,20 @@
     align-items: center;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
-    width: 70%;
+    width: 75%;
     height: 80%;
     border-radius: 25px;
     box-shadow: rgba(68, 64, 64, 0.34) 10px 13px 8px;
+    margin-bottom: 100px;
 }
 
-.blocoIntroducao h1{
-    margin: 20px 0px 20px 0px;
+.titulo{
+    width: 100%;
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: rgba(16, 62, 89, 0.34) 0px 5px 8px;
 }
 
 .divLista{
@@ -34,14 +40,15 @@
     justify-content: space-around;
     width: 100%;
     height: 80%;
-    background-color: red;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 .divLista .card{
     background-color: rgb(248, 248, 248);
     height: 450px;
     width: 320px;
-    margin: 5px;
-    
+    margin: 0px 0px 30px 0px;
+    border-radius: 25px;
+    box-shadow: rgba(68, 64, 64, 0.34) 10px 13px 8px;
 }
