@@ -45,7 +45,7 @@
     margin-bottom: 50px;
 }
 
-.divLista .card{
+.card{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,7 +55,11 @@
     margin: 0px 0px 30px 0px;
     border-radius: 25px;
     box-shadow: rgba(68, 64, 64, 0.34) 10px 13px 8px;
-    text-align: center;
+}
+
+.descricao{
+   display: flex;
+   flex-wrap: wrap;
 }
 
 .ajusteBotaoCard{
@@ -64,14 +68,15 @@
     justify-content: center;
     width: 100%;
     height: 100%;
-    background-color: red;
 }
 
 .ajusteBotaoCard button{
     padding: 10px;
-    width: 100px;
+    width: 120px;
     border: none;
     border-radius: 10px;
+    box-shadow: rgba(16, 62, 89, 0.4) 0px 0px 8px;
+    cursor: pointer;
 }
 
 .divLista .card img{
