@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
             localStorage.setItem("selectedCardImage", image);
 
             // Redireciona para a página de detalhes
-            window.location.href = "verMais.html";  // Alterado de "detalhes.html" para "verMais.html"
+            window.location.href = "verMais.html"; 
         });
     });
 });
