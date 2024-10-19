@@ -44,6 +44,8 @@
 .imagemDetalhe{
     object-fit: scale-down;
     margin-left: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(68, 64, 64, 0.34) 10px 10px 3px;
 }
 
 .alinhamentoDescricao{

@@ -84,6 +84,7 @@
     height: 250px;
     border-radius: 25px;
     object-fit: cover;
+    aspect-ratio: 4/16;
 }
 
 .divLista .card p{
